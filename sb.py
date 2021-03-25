@@ -65,9 +65,9 @@ settings = {
     "autoLeave": False,
     "autoRead": False,
     "lang":"JP",
-    "commentPost": "DPK BOT HADIR BUAT LIKE STATUS KAMU \n Add my owner ID http://line.me/ti/p/~@cob0606n",
+    "commentPost": "",
     "detectMention": True,
-    "autoResponMessage": "Ngapain tag gua woy",
+    "autoResponMessage": "",
     "responsticker": False,
     "changeGroupPicture":[],
     "notifikasi": False,
@@ -515,199 +515,19 @@ def clBot(op):
                 if text.lower() == 'help':
                        if msg.toType == 2:
                            data = {
-  "contents": [
-    {
-      "styles": {
-        "body": {
-          "backgroundColor": "#7D00C1"
-        },
-        "footer": {
-          "backgroundColor": "#7D00C1"
-        },
-        "header": {
-          "backgroundColor": "#7D00C1"
-        }
-      },
-      "type": "bubble",
-      "body": {
-        "contents": [
-          {
-            "contents": [
-              {
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "SELFBOT ONLY",
-                    "size": "xl",
-                    "wrap": True,
-                    "weight": "bold",
-                    "color": "#00FF00",
-                    "align": "center"
-                  }
-                ],
-                "type": "box",
-                "layout": "baseline"
-              }
-            ],
-            "type": "box",
-            "spacing": "xs",
-            "layout": "vertical"
-          },
-          {
-            "type": "image",
-        "url": "https://i.pinimg.com/474x/f5/95/3e/f5953e75376e51e38d909779b027d7f5--hack-online-email-address.jpg", #hp
-        "aspectRatio": "2:1",
-        "aspectMode": "cover",
-        "size": "full",
-          },
-          {
-            "type": "separator",
-            "color": "#FF0000"
-          },
-          {
-            "contents": [
-              {
-                "contents": [
-                  {
+ 
                     "text": "MENU HELP",
-                    "color": "#00FFFF",
+                    "color": "#000000",
                     "wrap": True,
-                    "weight": "bold",
-                    "type": "text",
-                    "size": "lg",
-                    "align": "center"
-                  }
-                ],
-                "type": "box",
-                "layout": "baseline"
-              }
-            ],
-            "type": "box",
-            "spacing": "xs",
-            "layout": "vertical"
-          },
-          {
-            "type": "separator",
-            "color": "#FF0000"
-          },
-          {
-            "contents": [
-              {
-                "contents": [
-                  {
+                   
                     "text": "║│ RESTART\n║│RUNTIME\n║│ STATUS\n║│ ABOUT\n║│ DELL(RCHAT)\n║│ MIMICDEL (@)\n║│ MIMICLIST\n║│ LURKING ON|OFF|RESET\n║│ LURKING",
                     "size": "xs",
                     "margin": "none",
-                    "color": "#FFFF00",
+                    "color": "#000000",
                     "wrap": True,
                     "weight": "regular",
                     "type": "text"
-                  }
-                ],
-                "type": "box",
-                "layout": "baseline"
-              }
-            ],
-            "type": "box",
-            "spacing": "xs",
-            "layout": "vertical"
-          }
-        ],
-        "type": "box",
-        "spacing": "xs",
-        "layout": "vertical"
-      }, #batas
-      "type": "bubble",
-      "footer": {
-        "type": "box",   
-        "layout": "horizontal",
-        "contents": [
-          {
-            "type": "text",
-        "text": "DPKBOT",
-        "size": "xl",
-        "wrap": True,
-        "weight": "bold",
-        "color": "#FFFF00",
-        "action": {
-          "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n",
-        },
-        "align": "center"
-      },
-      {
-        "type": "separator",
-        "color": "#FF0000"
-      },  
-      {
-        "type": "text",
-        "text": "VERSION",
-        "size": "xl",
-        "wrap": True,
-        "weight": "bold",
-        "color": "#FFFF00",
-        "action": {
-          "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n"
-        },
-        "align": "center"
-      },
-        ]
-      }
-    },
-    {
-      "styles": {
-        "body": {
-          "backgroundColor": "#7D00C1"
-        },
-        "footer": {
-          "backgroundColor": "#7D00C1"
-        },
-        "header": {
-          "backgroundColor": "#7D00C1"
-        }
-      },
-      "type": "bubble",
-      "body": {
-        "contents": [
-          {
-            "contents": [
-              {
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "SELFBOT ONLY",
-                    "size": "xl",
-                    "wrap": True,
-                    "weight": "bold",
-                    "color": "#00FF00",
-                    "align": "center"
-                  }
-                ],
-                "type": "box",
-                "layout": "baseline"
-              }
-            ],
-            "type": "box",
-            "spacing": "xs",
-            "layout": "vertical"
-          },
-          {
-            "type": "image",
-        "url": "https://i.pinimg.com/474x/f5/95/3e/f5953e75376e51e38d909779b027d7f5--hack-online-email-address.jpg", #hp
-        "aspectRatio": "2:1",
-        "aspectMode": "cover",
-        "size": "full",
-          },
-          {
-            "type": "separator",
-            "color": "#FF0000"
-          },
-          {
-            "contents": [
-              {
-                "contents": [
-                  {
+       
                     "text": "MENU SETTINGS",
                     "color": "#00FFFF",
                     "wrap": True,
